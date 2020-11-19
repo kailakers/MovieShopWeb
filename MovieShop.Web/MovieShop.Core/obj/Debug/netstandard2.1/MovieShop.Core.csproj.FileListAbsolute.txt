@@ -1,0 +1,9 @@
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.deps.json
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.dll
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.pdb
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csprojAssemblyReference.cache
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.AssemblyInfoInputs.cache
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.AssemblyInfo.cs
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csproj.CoreCompileInputs.cache
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.dll
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.pdb
