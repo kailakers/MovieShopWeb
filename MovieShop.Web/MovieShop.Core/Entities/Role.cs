@@ -1,4 +1,12 @@
-$HEADER$namespace $NAMESPACE$
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MovieShop.Core.Entities
 {
-  public class $CLASS$ {$END$}
+    public class Role
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public ICollection<UserRole> UserRoles { get; set; }
+    }
 }

@@ -1,4 +1,17 @@
-$HEADER$namespace $NAMESPACE$
+using System;
+using System.Xml;
+
+namespace MovieShop.Core.Entities
 {
-  public class $CLASS$ {$END$}
+    public class Purchase
+    {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public Guid PurchaseNumber { get; set; }
+        public decimal? TotalPrice { get; set; }
+        public DateTime? PurchaseDateTime { get; set; }
+        public int MovieId { get; set; }
+        public Movie Movie { get; set; }
+        public User User { get; set; }
+    }
 }

@@ -108,10 +108,33 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Class1.cs" t="Include" />
         <e p="Entities" t="Include">
+          <e p="Cast.cs" t="Include" />
+          <e p="Crew.cs" t="Include" />
+          <e p="Favorite.cs" t="Include" />
           <e p="Genre.cs" t="Include" />
+          <e p="Movie.cs" t="Include" />
+          <e p="MovieCast.cs" t="Include" />
+          <e p="MovieCrew.cs" t="Include" />
+          <e p="MovieGenre.cs" t="Include" />
+          <e p="Purchase.cs" t="Include" />
+          <e p="Review.cs" t="Include" />
+          <e p="Role.cs" t="Include" />
+          <e p="Trailer.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserRole.cs" t="Include" />
         </e>
         <e p="Exceptions" t="Include" />
-        <e p="Helpers" t="Include" />
+        <e p="Helpers" t="Include">
+          <e p="PagedResultSet.cs" t="Include" />
+          <e p="PaginatedList.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="CastDetailsResponseModel.cs" t="Include" />
+          <e p="MovieCreateRequest.cs" t="Include" />
+          <e p="MovieDetailsResponseModel.cs" t="Include" />
+          <e p="MovieResponseModel.cs" t="Include" />
+          <e p="ReviewMovieResponseModel.cs" t="Include" />
+        </e>
         <e p="MovieShop.Core.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -120,8 +143,17 @@
             </e>
           </e>
         </e>
-        <e p="RepositoryInterfaces" t="Include" />
-        <e p="ServiceInterfaces" t="Include" />
+        <e p="RepositoryInterfaces" t="Include">
+          <e p="IAsyncRepository.cs" t="Include" />
+          <e p="IMovieRepository.cs" t="Include" />
+          <e p="IPurchaseRepository.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
+        </e>
+        <e p="ServiceInterfaces" t="Include">
+          <e p="ICastService.cs" t="Include" />
+          <e p="IGenreService.cs" t="Include" />
+          <e p="IMovieService.cs" t="Include" />
+        </e>
       </e>
       <e p="MovieShop.Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -134,6 +166,40 @@
           <e p="20201119003315_InitialMigration.Designer.cs" t="Include" />
           <e p="20201119005436_ChangeTableName.cs" t="Include" />
           <e p="20201119005436_ChangeTableName.Designer.cs" t="Include" />
+          <e p="20201119182023_ChangeGenreNameDataType.cs" t="Include" />
+          <e p="20201119182023_ChangeGenreNameDataType.Designer.cs" t="Include" />
+          <e p="20201119184218_CreateMovieTable.cs" t="Include" />
+          <e p="20201119184218_CreateMovieTable.Designer.cs" t="Include" />
+          <e p="20201119184757_ModifyMovieTable.cs" t="Include" />
+          <e p="20201119184757_ModifyMovieTable.Designer.cs" t="Include" />
+          <e p="20201119193335_TrailerTable.cs" t="Include" />
+          <e p="20201119193335_TrailerTable.Designer.cs" t="Include" />
+          <e p="20201119193635_GenreMovie.cs" t="Include" />
+          <e p="20201119193635_GenreMovie.Designer.cs" t="Include" />
+          <e p="20201119225628_ModifyMovieGenre.cs" t="Include" />
+          <e p="20201119225628_ModifyMovieGenre.Designer.cs" t="Include" />
+          <e p="20201119234014_MovieCast.cs" t="Include" />
+          <e p="20201119234014_MovieCast.Designer.cs" t="Include" />
+          <e p="20201120001658_MovieCrew.cs" t="Include" />
+          <e p="20201120001658_MovieCrew.Designer.cs" t="Include" />
+          <e p="20201120004123_UserTable.cs" t="Include" />
+          <e p="20201120004123_UserTable.Designer.cs" t="Include" />
+          <e p="20201120013315_UserRole.cs" t="Include" />
+          <e p="20201120013315_UserRole.Designer.cs" t="Include" />
+          <e p="20201120014818_CreatePurchaseTable.cs" t="Include" />
+          <e p="20201120014818_CreatePurchaseTable.Designer.cs" t="Include" />
+          <e p="20201120015719_CreateReviewTable.cs" t="Include" />
+          <e p="20201120015719_CreateReviewTable.Designer.cs" t="Include" />
+          <e p="20201120015841_ModifyReviewName.cs" t="Include" />
+          <e p="20201120015841_ModifyReviewName.Designer.cs" t="Include" />
+          <e p="20201120020233_CreateFavoriteTable.cs" t="Include" />
+          <e p="20201120020233_CreateFavoriteTable.Designer.cs" t="Include" />
+          <e p="20201120020956_ModifyUserColumnType.cs" t="Include" />
+          <e p="20201120020956_ModifyUserColumnType.Designer.cs" t="Include" />
+          <e p="20201120021134_ModifyUserColumnTypeAccess.cs" t="Include" />
+          <e p="20201120021134_ModifyUserColumnTypeAccess.Designer.cs" t="Include" />
+          <e p="20201120021516_ModifyKeyOfMovieCrewMovieCast.cs" t="Include" />
+          <e p="20201120021516_ModifyKeyOfMovieCrewMovieCast.Designer.cs" t="Include" />
           <e p="MovieShopDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="MovieShop.Infrastructure.csproj" t="IncludeRecursive" />
@@ -144,7 +210,12 @@
             </e>
           </e>
         </e>
-        <e p="Repositories" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="EFRepository.cs" t="Include" />
+          <e p="MovieRepository.cs" t="Include" />
+          <e p="PurchaseRepository.cs" t="Include" />
+          <e p="UserRepository.cs" t="Include" />
+        </e>
         <e p="Services" t="Include" />
       </e>
       <e p="MovieShop.Web.sln" t="IncludeFlat" />
