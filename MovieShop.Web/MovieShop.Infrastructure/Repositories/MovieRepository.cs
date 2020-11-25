@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,10 +15,21 @@ namespace MovieShop.Infrastructure.Repositories
         {
             
         }
-
+        public override async Task<Movie> GetByIdAsync(int id)
+        {
+            var movie = await _dbContext.Movies
+                .Include(m => m.MovieCasts).ThenInclude(m => m.Cast).Include(m => m.MovieGenres)
+                .ThenInclude(m => m.Genre)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (movie == null) return null;
+            var movieRating = await _dbContext.Reviews.Where(r => r.MovieId == id).DefaultIfEmpty()
+                .AverageAsync(r => r == null ? 0 : r.Rating);
+            if (movieRating > 0) movie.Rating = movieRating;
+            return movie;
+        }
         public async Task<IEnumerable<Movie>> GetTopRatedMovie()
         {
-            var MovieRank = await _dbContext.Reviews.Include(m => m.Movie)
+            var movieRank = await _dbContext.Reviews.Include(m => m.Movie)
                 .GroupBy(r => new
                 {
                     Id = r.MovieId,
@@ -32,7 +44,7 @@ namespace MovieShop.Infrastructure.Repositories
                     ReleaseDate = m.Key.ReleaseDate,
                     Rating = m.Average(r => r.Rating)
                 }).Take(10).ToListAsync();
-            return MovieRank;
+            return movieRank;
         }
 
         public async Task<IEnumerable<Movie>> GetMovieByGenre(int genreId)
@@ -44,7 +56,15 @@ namespace MovieShop.Infrastructure.Repositories
 
         public async Task<IEnumerable<Movie>> GetHighestRevenueMovies()
         {
-            return await _dbContext.Movies.OrderByDescending(m => m.Revenue).Take(1).ToListAsync();
+            return await _dbContext.Movies.OrderByDescending(m => m.Revenue).Take(50).ToListAsync();
+            // skip and take in linq ==> offset and fetch in sql
+        }
+
+        public async Task<IEnumerable<Review>> GetReviewByMovie(int movieId)
+        {
+            return await _dbContext.Reviews.Include(r=>r.Movie)
+                .Where(r => r.MovieId == movieId)
+                .ToListAsync();
         }
     }
 }

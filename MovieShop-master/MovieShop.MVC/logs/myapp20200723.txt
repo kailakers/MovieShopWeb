@@ -1,0 +1,77 @@
+2020-07-23 11:50:10.461 -04:00 [INF] Starting Up
+2020-07-23 11:50:10.668 -04:00 [INF] User profile is available. Using 'C:\Users\Abhil\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-07-23 11:50:10.743 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-23 11:50:10.744 -04:00 [INF] Hosting environment: Development
+2020-07-23 11:50:10.744 -04:00 [INF] Content root path: C:\Users\Abhil\Source\Repos\MovieShop\MovieShop.MVC
+2020-07-23 11:50:10.756 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:54336/  
+2020-07-23 11:50:10.758 -04:00 [INF] My MovieShopExceptionMiddleware BEFORE
+2020-07-23 11:50:10.758 -04:00 [INF] My MovieShopExceptionMiddleware went through
+2020-07-23 11:50:10.782 -04:00 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2020-07-23 11:50:10.783 -04:00 [INF] Executing endpoint 'MovieShop.MVC.Controllers.HomeController.Index (MovieShop.MVC)'
+2020-07-23 11:50:10.813 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller MovieShop.MVC.Controllers.HomeController (MovieShop.MVC).
+2020-07-23 11:50:11.038 -04:00 [INF] Index method called
+2020-07-23 11:50:11.550 -04:00 [WRN] No type was specified for the decimal column 'Budget' on entity type 'Movie'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-23 11:50:11.550 -04:00 [WRN] No type was specified for the decimal column 'Revenue' on entity type 'Movie'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-23 11:50:11.550 -04:00 [WRN] No type was specified for the decimal column 'TotalPrice' on entity type 'Purchase'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.
+2020-07-23 11:50:11.577 -04:00 [INF] Entity Framework Core 3.1.6 initialized 'MovieShopDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-23 11:50:11.907 -04:00 [INF] Executed DbCommand (40ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(@__p_0) [m].[Id], [m].[BackdropUrl], [m].[Budget], [m].[CreatedBy], [m].[CreatedDate], [m].[ImdbUrl], [m].[OriginalLanguage], [m].[Overview], [m].[PosterUrl], [m].[Price], [m].[ReleaseDate], [m].[Revenue], [m].[RunTime], [m].[Tagline], [m].[Title], [m].[TmdbUrl], [m].[UpdatedBy], [m].[UpdatedDate]
+FROM [Movie] AS [m]
+ORDER BY [m].[Revenue] DESC
+2020-07-23 11:50:12.012 -04:00 [INF] Executing ViewResult, running view Index.
+2020-07-23 11:50:12.085 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[Name]
+FROM [Genre] AS [g]
+2020-07-23 11:50:12.114 -04:00 [INF] Executed ViewResult - view Index executed in 101.5439ms.
+2020-07-23 11:50:12.115 -04:00 [INF] Executed action MovieShop.MVC.Controllers.HomeController.Index (MovieShop.MVC) in 1302.5515ms
+2020-07-23 11:50:12.116 -04:00 [INF] Executed endpoint 'MovieShop.MVC.Controllers.HomeController.Index (MovieShop.MVC)'
+2020-07-23 11:50:12.116 -04:00 [INF] My MovieShopExceptionMiddleware AFTER
+2020-07-23 11:50:12.122 -04:00 [INF] Request finished in 1368.1186ms 200 text/html; charset=utf-8
+2020-07-23 11:50:35.581 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:54336/Movies/Details/29  
+2020-07-23 11:50:35.581 -04:00 [INF] My MovieShopExceptionMiddleware BEFORE
+2020-07-23 11:50:35.582 -04:00 [INF] My MovieShopExceptionMiddleware went through
+2020-07-23 11:50:35.584 -04:00 [INF] Cookies was not authenticated. Failure message: Ticket expired
+2020-07-23 11:50:35.585 -04:00 [INF] Executing endpoint 'MovieShop.MVC.Controllers.MoviesController.Details (MovieShop.MVC)'
+2020-07-23 11:50:35.592 -04:00 [INF] Route matched with {action = "Details", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int32) on controller MovieShop.MVC.Controllers.MoviesController (MovieShop.MVC).
+2020-07-23 11:50:35.625 -04:00 [INF] Entity Framework Core 3.1.6 initialized 'MovieShopDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-07-23 11:50:35.710 -04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[BackdropUrl], [t].[Budget], [t].[CreatedBy], [t].[CreatedDate], [t].[ImdbUrl], [t].[OriginalLanguage], [t].[Overview], [t].[PosterUrl], [t].[Price], [t].[ReleaseDate], [t].[Revenue], [t].[RunTime], [t].[Tagline], [t].[Title], [t].[TmdbUrl], [t].[UpdatedBy], [t].[UpdatedDate], [t0].[CastId], [t0].[MovieId], [t0].[Character], [t0].[Id], [t0].[Gender], [t0].[Name], [t0].[ProfilePath], [t0].[TmdbUrl], [t1].[MovieId], [t1].[GenreId], [t1].[Id], [t1].[Name]
+FROM (
+    SELECT TOP(1) [m].[Id], [m].[BackdropUrl], [m].[Budget], [m].[CreatedBy], [m].[CreatedDate], [m].[ImdbUrl], [m].[OriginalLanguage], [m].[Overview], [m].[PosterUrl], [m].[Price], [m].[ReleaseDate], [m].[Revenue], [m].[RunTime], [m].[Tagline], [m].[Title], [m].[TmdbUrl], [m].[UpdatedBy], [m].[UpdatedDate]
+    FROM [Movie] AS [m]
+    WHERE [m].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [m0].[CastId], [m0].[MovieId], [m0].[Character], [c].[Id], [c].[Gender], [c].[Name], [c].[ProfilePath], [c].[TmdbUrl]
+    FROM [MovieCast] AS [m0]
+    INNER JOIN [Cast] AS [c] ON [m0].[CastId] = [c].[Id]
+) AS [t0] ON [t].[Id] = [t0].[MovieId]
+LEFT JOIN (
+    SELECT [m1].[MovieId], [m1].[GenreId], [g].[Id], [g].[Name]
+    FROM [MovieGenre] AS [m1]
+    INNER JOIN [Genre] AS [g] ON [m1].[GenreId] = [g].[Id]
+) AS [t1] ON [t].[Id] = [t1].[MovieId]
+ORDER BY [t].[Id], [t0].[CastId], [t0].[MovieId], [t0].[Character], [t0].[Id], [t1].[MovieId], [t1].[GenreId], [t1].[Id]
+2020-07-23 11:50:35.762 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT AVG(CASE
+    WHEN [t].[MovieId] IS NULL THEN 0.0
+    ELSE [t].[Rating]
+END)
+FROM (
+    SELECT NULL AS [empty]
+) AS [empty]
+LEFT JOIN (
+    SELECT [r].[MovieId], [r].[UserId], [r].[Rating], [r].[ReviewText]
+    FROM [Review] AS [r]
+    WHERE [r].[MovieId] = @__id_0
+) AS [t] ON 1 = 1
+2020-07-23 11:50:35.771 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Favorite] AS [f]
+WHERE [f].[MovieId] = @__id_0
+2020-07-23 11:50:35.783 -04:00 [INF] Executing ViewResult, running view Details.
+2020-07-23 11:50:35.796 -04:00 [INF] Executed ViewResult - view Details executed in 13.5605ms.
+2020-07-23 11:50:35.796 -04:00 [INF] Executed action MovieShop.MVC.Controllers.MoviesController.Details (MovieShop.MVC) in 204.6072ms
+2020-07-23 11:50:35.797 -04:00 [INF] Executed endpoint 'MovieShop.MVC.Controllers.MoviesController.Details (MovieShop.MVC)'
+2020-07-23 11:50:35.797 -04:00 [INF] My MovieShopExceptionMiddleware AFTER
+2020-07-23 11:50:35.797 -04:00 [INF] Request finished in 216.6844ms 200 text/html; charset=utf-8

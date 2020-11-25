@@ -22,6 +22,10 @@ namespace MovieShop.Infrastructure.Repositories
             return entity;
         }
 
+        public async Task<IEnumerable<T>> GetByPage(int pageIndex = 0, int pageSize = 30)
+        {
+            return await _dbContext.Set<T>().Skip(pageIndex * pageSize).Take(pageSize).ToListAsync();
+        }
         public async Task<IEnumerable<T>> ListAllAsync()
         {
             return await _dbContext.Set<T>().ToListAsync();

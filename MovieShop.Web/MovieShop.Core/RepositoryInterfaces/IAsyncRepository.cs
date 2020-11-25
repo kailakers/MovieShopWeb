@@ -17,5 +17,6 @@ namespace MovieShop.Core.RepositoryInterfaces
         Task<T> AddAsync(T entity);
         Task<T> UpdateAsync(T entity);
         Task DeleteAsync(T entity);
+        Task<IEnumerable<T>> GetByPage(int pageIndex, int pageSize);
     }
 }

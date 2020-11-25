@@ -1,6 +1,6 @@
 namespace MovieShop.Core.Helpers
 {
-    public class PaginatedList
+    public class PaginatedList<T> where T:class
     {
         
     }
