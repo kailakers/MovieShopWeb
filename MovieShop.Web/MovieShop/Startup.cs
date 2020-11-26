@@ -40,6 +40,8 @@ namespace MovieShop
             services.AddScoped<IMovieService, MovieService>();
             services.AddScoped<IMovieRepository, MovieRepository>();
             services.AddScoped<IAsyncRepository<Favorite>, EfRepository<Favorite>>();
+            services.AddScoped<IGenreService, GenreService>();
+            services.AddScoped<IAsyncRepository<Genre>, EfRepository<Genre>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

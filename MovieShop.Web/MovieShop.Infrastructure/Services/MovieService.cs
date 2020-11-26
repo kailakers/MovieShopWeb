@@ -46,7 +46,6 @@ namespace MovieShop.Infrastructure.Services
                 Title = movie.Title,
                 PosterUrl = movie.PosterUrl,
                 BackdropUrl = movie.BackdropUrl,
-                Rating = movie.Rating,
                 Overview = movie.Overview,
                 Tagline = movie.Tagline,
                 Budget = movie.Budget,
@@ -70,7 +69,7 @@ namespace MovieShop.Infrastructure.Services
             {
                 reviewMovieResponseModel.Add(new ReviewMovieResponseModel
                 {
-                    MovieId = review.MovieId, Name = review.User.FirstName, Rating = review.Movie.Rating,
+                    MovieId = review.MovieId, Name = review.User.FirstName,
                     ReviewText = review.ReviewText, UserId = review.UserId
                 });
             }
@@ -99,9 +98,19 @@ namespace MovieShop.Infrastructure.Services
             return movieResponseModel;
         }
 
-        public Task<IEnumerable<MovieResponseModel>> GetHighestGrossingMovies()
+        public async Task<IEnumerable<MovieResponseModel>> GetHighestGrossingMovies()
         {
-            throw new System.NotImplementedException();
+            var movies = await _movieRepository.GetHighestGrossingMovies();
+            var movieResponseModel = new List<MovieResponseModel>();
+            foreach (var movie in movies)
+            {
+                movieResponseModel.Add(new MovieResponseModel
+                {
+                    Id = movie.Id, PosterUrl = movie.PosterUrl, Title = movie.Title, ReleaseDate = movie.ReleaseDate.Value
+                });
+            }
+
+            return movieResponseModel;
         }
 
         public async Task<IEnumerable<MovieResponseModel>> GetMoviesByGenre(int genreId)

@@ -71,3 +71,5 @@
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/ref/MovieShop.dll
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.pdb
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.genruntimeconfig.cache
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_MovieCard.cshtml.g.cs
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/Components/Genres/Default.cshtml.g.cs

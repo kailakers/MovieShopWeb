@@ -22,29 +22,34 @@ namespace MovieShop.Infrastructure.Repositories
                 .ThenInclude(m => m.Genre)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (movie == null) return null;
-            var movieRating = await _dbContext.Reviews.Where(r => r.MovieId == id).DefaultIfEmpty()
-                .AverageAsync(r => r == null ? 0 : r.Rating);
-            if (movieRating > 0) movie.Rating = movieRating;
+            // var movieRating = await _dbContext.Reviews.Where(r => r.MovieId == id).DefaultIfEmpty()
+            //     .AverageAsync(r => r == null ? 0 : r.Rating);
+            // if (movieRating > 0) movie.Rating = movieRating;
             return movie;
         }
-        public async Task<IEnumerable<Movie>> GetTopRatedMovie()
+        // public async Task<IEnumerable<Movie>> GetTopRatedMovie()
+        // {
+        //     var movieRank = await _dbContext.Reviews.Include(m => m.Movie)
+        //         .GroupBy(r => new
+        //         {
+        //             Id = r.MovieId,
+        //             r.Movie.Title,
+        //             r.Movie.ReleaseDate
+        //         })
+        //         .OrderByDescending(g => g.Average(r => r.Rating))
+        //         .Select(m => new Movie
+        //         {
+        //             Id = m.Key.Id,
+        //             Title = m.Key.Title,
+        //             ReleaseDate = m.Key.ReleaseDate,
+        //             Rating = m.Average(r => r.Rating)
+        //         }).Take(10).ToListAsync();
+        //     return movieRank;
+        // }
+
+        public Task<IEnumerable<Movie>> GetTopRatedMovie()
         {
-            var movieRank = await _dbContext.Reviews.Include(m => m.Movie)
-                .GroupBy(r => new
-                {
-                    Id = r.MovieId,
-                    r.Movie.Title,
-                    r.Movie.ReleaseDate
-                })
-                .OrderByDescending(g => g.Average(r => r.Rating))
-                .Select(m => new Movie
-                {
-                    Id = m.Key.Id,
-                    Title = m.Key.Title,
-                    ReleaseDate = m.Key.ReleaseDate,
-                    Rating = m.Average(r => r.Rating)
-                }).Take(10).ToListAsync();
-            return movieRank;
+            throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<Movie>> GetMovieByGenre(int genreId)
@@ -65,6 +70,12 @@ namespace MovieShop.Infrastructure.Repositories
             return await _dbContext.Reviews.Include(r=>r.Movie)
                 .Where(r => r.MovieId == movieId)
                 .ToListAsync();
+        }
+
+        public async Task<IEnumerable<Movie>> GetHighestGrossingMovies()
+        {
+            var movies = await _dbContext.Movies.OrderByDescending(m => m.Revenue).Take(50).ToListAsync();
+            return movies;
         }
     }
 }

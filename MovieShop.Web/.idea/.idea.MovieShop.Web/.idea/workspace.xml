@@ -26,338 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f9208dd-e25e-40f6-8ab5-7490abf0b0c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Controllers/MoviesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Infrastructure/CustomMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Infrastructure/MovieShopExceptionMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Models/ErrorViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/MovieShop.MVC.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Account/Login.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Account/Register.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Movies/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Shared/Components/Genres/Default.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Shared/Components/Genres/GenresViewComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Shared/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Shared/_MovieCard.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/libman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/logs/myapp20200723.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/svg-with-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/svg-with-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/v4-shims.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/css/v4-shims.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/brands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/brands.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/conflict-detection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/conflict-detection.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/fontawesome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/fontawesome.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/regular.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/regular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/solid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/solid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/v4-shims.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/js/v4-shims.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/sprites/brands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/sprites/regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/sprites/solid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/font-awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.UnitTests/MovieServiceTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.UnitTests/MovieShop.UnitTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.UnitTests/UserServiceTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/genres/genres.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/genres/genres.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/genres/genres.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/genres/genres.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/home/home.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/home/home.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/app/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShopSPA/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/azure-pipelines.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/01 Introduction and Creating our Project.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/02 Angular 8 and creating basic Frontend set up.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/02 Angular 8 and creating basic Frontend set up.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/03 Architecture of the Project n-Layers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/04.01 Creating Database with Entity Framework Core.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/04.01 Creating Database with Entity Framework Core.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/04.02 Creating Database with Entity Framework Core.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/04.02 Creating Database with Entity Framework Core.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/04.03 Creating Database with Entity Framework Core.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/04.03 Creating Database with Entity Framework Core.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/05 Creating REST API with .NET Core.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/06 Building folder structure for Angular and creating Layout.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/07 Creating and Updating Resources.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/08 Exception Handling and Logging.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/09 Security with Authentication and Authorization.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/10 Additional required functionality for API.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/11 Adding new UI components.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/12 Advanced Concepts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/13 Performance improvements and Modularization.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/14 Unit Testing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/15 Deploying the Application.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/16 Wrapping it Up.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.01 Create Empty Solution.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.02 MovieShop Solution.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.03 ASP.NET Core API Create.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.04 Web API Project.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.05 Monolithic Application.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.06 MovieShop.Core.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.07 MovieShop.Data.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.08 MovieShop.Services.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.09 All Layers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.09 Dependency Graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/01.10 Postman Result.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/02.03 CORS Error Chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/02.04 CORS working.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/03.01 ER diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/04.01 First Migration Updated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/04.01 Install Entity Framework Packages.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/API.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/MovieShop ER.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/MovieShopAPI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/images/movieshoper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/01 Genre.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/02 Movie.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/03 Cast.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/04 Crew.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/05 User.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/06 MovieGenre.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/07 MovieCast.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/08 MovieCrew.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/09 Review.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/NewMovies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/Queries.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/Queries2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/Reset HangfireTables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/Results.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/Solution1.ssmssln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/files/activeSession.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/docs/sqlfiles/files/activeSessionDetail.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Caching/CachedGenreService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Controllers/AdminController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Controllers/CastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Controllers/GenresController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Controllers/HealthCheckController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Controllers/MoviesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Hub/MovieShopHub.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Infrastructure/ExceptionMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Infrastructure/ModelStateValidationFilterAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/MovieShop.API.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/WorkerService/ChartRecurringService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.API/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/Cast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/Crew.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/Favorite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/Genre.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/MovieCast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/MovieCrew.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/MovieGenre.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/Purchase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/Review.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/Trailer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Entities/UserRole.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Exceptions/BadRequestException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Exceptions/ConflictException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Exceptions/ErrorResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Exceptions/HttpException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Exceptions/NotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Helpers/PagedResultSet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Helpers/PaginatedList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/MappingProfiles/MoviesMappingProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Request/FavoriteRequestModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Request/LoginRequestModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Request/MovieCreateRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Request/PurchaseRequestModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Request/ReviewRequestModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Request/UserRegisterRequestModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Response/CastDetailsResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Response/FavoriteResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Response/MovieChartResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Response/MovieDetailsResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Response/MovieResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Response/PurchaseResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Response/ReviewsResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Response/UserLoginResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/Models/Response/UserRegisterResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/MovieShop.Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/RepositoryInterfaces/IAsyncRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/RepositoryInterfaces/ICastRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/RepositoryInterfaces/IChartRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/RepositoryInterfaces/IMovieRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/RepositoryInterfaces/IPurchaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/RepositoryInterfaces/IUserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/ServiceInterfaces/ICastService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/ServiceInterfaces/ICryptoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/ServiceInterfaces/ICurrentUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/ServiceInterfaces/IGenreService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/ServiceInterfaces/IJwtService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/ServiceInterfaces/IMovieService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Core/ServiceInterfaces/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Data/MovieShopDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Helpers/ServiceCollectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Migrations/20200131183601_MovieShopDbMigration.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Migrations/20200131183601_MovieShopDbMigration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Migrations/20200217190200_TrailerTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Migrations/20200217190200_TrailerTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Migrations/MovieShopDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Repositories/CastRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Repositories/ChartRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Repositories/EfRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Repositories/MovieRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Repositories/PurchaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Repositories/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/CastService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/CryptoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/CurrentUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/GenreService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/JwtService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/MovieService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/UserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/tests/MovieShop.Tests/MovieServiceTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MovieShop-master/tests/MovieShop.Tests/MovieShop.Tests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/MovieService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/GenreService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShop/Views/Shared/Components/Genres/Default.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShop/Views/Shared/Components/Genres/GenreViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShop/Views/Shared/_MovieCard.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_MovieCard.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Helpers/PagedResultSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Helpers/PagedResultSet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Helpers/PaginatedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Helpers/PaginatedList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/CastDetailsResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/CastDetailsResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/MovieCreateRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Request/MovieCreateRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/MovieDetailsResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/MovieDetailsResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/MovieResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/MovieResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/ReviewMovieResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/ReviewMovieResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IAsyncRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IAsyncRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IMovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IMovieRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/EfRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/EfRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/MovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/MovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/MovieService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/MovieService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.dll" afterDir="false" />
@@ -368,6 +51,8 @@
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.dll" afterDir="false" />
@@ -377,11 +62,17 @@
       <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/ref/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/ref/MovieShop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.TagHelpers.output.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/ref/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/ref/MovieShop.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -402,6 +93,7 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -414,12 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MovieShop.Core/Class1.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Class1.cs" />
-        <option value="$PROJECT_DIR$/MovieShop/appsettings.json" />
-        <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Trailers.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Core/Entities/MovieGenre.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Genre.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Trailer.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Cast.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Entities/MovieCast.cs" />
@@ -437,7 +123,6 @@
         <option value="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IPurchaseRepository.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/PurchaseRepository.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Models/IMovieService.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Models/MovieResponseModel.cs" />
@@ -449,7 +134,6 @@
         <option value="$PROJECT_DIR$/MovieShop.Core/Models/MovieCreateRequest.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Models/Response/MovieResponseModel.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/MovieRepositoryTest.cs" />
-        <option value="$PROJECT_DIR$/MovieShop/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Models/Response/MovieDetailsResponseModel.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Models/Response/CastDetailsResponseModel.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/IMovieService.cs" />
@@ -457,11 +141,22 @@
         <option value="$PROJECT_DIR$/MovieShop.Core/Helpers/PaginatedList.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IAsyncRepository.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Helpers/PagedResultSet.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IMovieRepository.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Models/Response/ReviewMovieResponseModel.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/MovieRepository.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Services/MovieService.cs" />
+        <option value="$PROJECT_DIR$/MovieShop/Models/Response.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Services/GenreService.cs" />
         <option value="$PROJECT_DIR$/MovieShop/Startup.cs" />
+        <option value="$PROJECT_DIR$/MovieShop/Views/Shared/Component/Genre/Default.cshtml" />
+        <option value="$PROJECT_DIR$/MovieShop/Views/Shared/Component/Genre/GenreViewComponent.cs" />
+        <option value="$PROJECT_DIR$/MovieShop/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/MovieShop/Views/Shared/Component/Genres/Default.cshtml" />
+        <option value="$PROJECT_DIR$/MovieShop/Views/Shared/Components/Genres/Default.cshtml" />
+        <option value="$PROJECT_DIR$/MovieShop/Views/Shared/_MovieCard.cshtml" />
+        <option value="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IMovieRepository.cs" />
+        <option value="$PROJECT_DIR$/MovieShop/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/MovieShop/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Services/MovieService.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/MovieRepository.cs" />
       </list>
     </option>
   </component>
@@ -531,7 +226,7 @@
       <updated>1605732678910</updated>
       <workItem from="1605732684997" duration="6666000" />
       <workItem from="1605750442457" duration="14515000" />
-      <workItem from="1606149704347" duration="22466000" />
+      <workItem from="1606149704347" duration="31012000" />
     </task>
     <servers />
   </component>
@@ -561,30 +256,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606262427016" />
-    <state x="437" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606261734707">
+    <state x="437" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606326152905">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="437" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1606261734707" />
+    <state x="437" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1606326152905" />
     <state x="661" y="211" width="463" height="478" key="#xdebugger.XInspectDialog" timestamp="1606262921514">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="661" y="211" width="463" height="478" key="#xdebugger.XInspectDialog/0.0.1440.900@0.0.1440.900" timestamp="1606262921514" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1606283247339">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1606351332492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606283247339" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1606283247338">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606351332492" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1606327333484" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1606324025109" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1606351332492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606283247338" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1606283247337">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606351332492" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1606327333483" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1606324025107" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1606351332490">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606283247337" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1606283247339">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606351332490" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1606327333481" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1606324025105" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1606351332492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606283247339" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606351332492" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1606327333483" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1606324025108" />
     <state width="1398" height="348" key="GridCell.Tab.1.bottom" timestamp="1606263077744">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -662,10 +365,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606242734213" />
-    <state x="100" y="100" width="1240" height="700" key="VCS.FileHistoryDialog" timestamp="1606266950929">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="100" y="58" width="1240" height="842" key="VCS.FileHistoryDialog" timestamp="1606351329299">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="100" y="100" width="1240" height="700" key="VCS.FileHistoryDialog/0.23.1440.821@0.23.1440.821" timestamp="1606266950929" />
+    <state x="100" y="58" width="1240" height="842" key="VCS.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1606351329299" />
+    <state x="100" y="84" width="1240" height="768" key="VCS.FileHistoryDialog/0.23.1440.821@0.23.1440.821" timestamp="1606323253559" />
     <state x="262" y="187" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606241512077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

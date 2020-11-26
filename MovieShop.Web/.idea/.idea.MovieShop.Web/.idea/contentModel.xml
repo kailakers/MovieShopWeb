@@ -37,7 +37,14 @@
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
+            <e p="_MovieCard.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Components" t="Include">
+              <e p="Genres" t="Include">
+                <e p="Default.cshtml" t="Include" />
+                <e p="GenreViewComponent.cs" t="Include" />
+              </e>
+            </e>
             <e p="Error.cshtml" t="Include" />
           </e>
         </e>
@@ -221,6 +228,7 @@
           <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="GenreService.cs" t="Include" />
           <e p="MovieService.cs" t="Include" />
         </e>
       </e>
