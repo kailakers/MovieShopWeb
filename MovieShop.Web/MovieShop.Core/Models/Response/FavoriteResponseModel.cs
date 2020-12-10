@@ -1,4 +1,8 @@
-$HEADER$namespace $NAMESPACE$
+namespace MovieShop.Core.Models
 {
-  public class $CLASS$ {$END$}
+    public class FavoriteResponseModel
+    {
+        public int UserId { get; set; }
+        public int MovieId { get; set; }
+    }
 }

@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MovieShop.Core.Models;
@@ -19,19 +20,21 @@ namespace MovieShop.API.Controllers
             _purchaseService = purchaseService;
         }
         
+        [Authorize]
         [HttpPost]
         [Route("createMovie")]
         public async Task<IActionResult> CreateMovie(MovieCreateRequest movieCreateRequest)
         {
             if (ModelState.IsValid)
             {
-                await _movieService.CreateMovie(movieCreateRequest);
-                return Ok();
+                var movie = await _movieService.CreateMovie(movieCreateRequest);
+                return Ok(movie);
             }
 
             return BadRequest(new {Message = "Please correct the information of the movie!"});
         }
 
+        [Authorize]
         [HttpPut]
         [Route("updateMovie")]
         public async Task<IActionResult> UpdateMovie(MovieCreateRequest movieCreateRequest)

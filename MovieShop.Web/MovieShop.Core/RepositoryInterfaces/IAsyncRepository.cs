@@ -18,5 +18,8 @@ namespace MovieShop.Core.RepositoryInterfaces
         Task<T> UpdateAsync(T entity);
         Task DeleteAsync(T entity);
         Task<IEnumerable<T>> GetByPage(int pageIndex, int pageSize);
+
+        Task<IEnumerable<T>> ListAllWithInclude(Expression<Func<T, bool>> filter,
+            params Expression<Func<T, Object>>[] included);
     }
 }

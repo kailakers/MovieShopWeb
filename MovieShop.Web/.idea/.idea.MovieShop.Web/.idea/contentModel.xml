@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.7.1/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/2.1.1/build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/2.1.1/build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/2.1.1/build/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" t="Include" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/ide" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_MovieShop.Web.1072103798.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
@@ -9,6 +16,8 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="AdminController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -23,6 +32,7 @@
             </e>
           </e>
         </e>
+        <e p="Pages" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -31,12 +41,21 @@
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Login.cshtml" t="Include" />
+            <e p="MyAccount.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+          </e>
+          <e p="Admin" t="Include">
+            <e p="CreateMovie.cshtml" t="Include" />
+          </e>
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginSuccess.cshtml" t="Include" />
             <e p="_MovieCard.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
             <e p="Components" t="Include">
@@ -111,6 +130,32 @@
           </e>
         </e>
       </e>
+      <e p="MovieShop.API" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="AdminController.cs" t="Include" />
+          <e p="CastController.cs" t="Include" />
+          <e p="GenresController.cs" t="Include" />
+          <e p="MoviesController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="MovieShop.API.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="MovieShop.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
       <e p="MovieShop.Core" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Class1.cs" t="Include" />
@@ -126,6 +171,7 @@
           <e p="Purchase.cs" t="Include" />
           <e p="Review.cs" t="Include" />
           <e p="Role.cs" t="Include" />
+          <e p="Test.cs" t="Include" />
           <e p="Trailer.cs" t="Include" />
           <e p="User.cs" t="Include" />
           <e p="UserRole.cs" t="Include" />
@@ -137,13 +183,23 @@
         </e>
         <e p="Models" t="Include">
           <e p="Request" t="Include">
+            <e p="FavoriteRequestModel.cs" t="Include" />
+            <e p="LoginRequestModel.cs" t="Include" />
             <e p="MovieCreateRequest.cs" t="Include" />
+            <e p="PurchaseRequestModel.cs" t="Include" />
+            <e p="ReviewRequestModel.cs" t="Include" />
+            <e p="UserRegisterRequestModel.cs" t="Include" />
           </e>
           <e p="Response" t="Include">
             <e p="CastDetailsResponseModel.cs" t="Include" />
+            <e p="FavoriteResponseModel.cs" t="Include" />
             <e p="MovieDetailsResponseModel.cs" t="Include" />
             <e p="MovieResponseModel.cs" t="Include" />
+            <e p="PurchaseResponseModel.cs" t="Include" />
             <e p="ReviewMovieResponseModel.cs" t="Include" />
+            <e p="ReviewResponseModel.cs" t="Include" />
+            <e p="UserLoginResponseModel.cs" t="Include" />
+            <e p="UserRegisterResponseModel.cs" t="Include" />
           </e>
         </e>
         <e p="MovieShop.Core.csproj" t="IncludeRecursive" />
@@ -156,14 +212,19 @@
         </e>
         <e p="RepositoryInterfaces" t="Include">
           <e p="IAsyncRepository.cs" t="Include" />
+          <e p="ICastRepository.cs" t="Include" />
           <e p="IMovieRepository.cs" t="Include" />
           <e p="IPurchaseRepository.cs" t="Include" />
           <e p="IUserRepository.cs" t="Include" />
         </e>
         <e p="ServiceInterfaces" t="Include">
           <e p="ICastService.cs" t="Include" />
+          <e p="ICryptoService.cs" t="Include" />
+          <e p="ICurrentUserService.cs" t="Include" />
           <e p="IGenreService.cs" t="Include" />
           <e p="IMovieService.cs" t="Include" />
+          <e p="IPurchaseService.cs" t="Include" />
+          <e p="IUserService.cs" t="Include" />
         </e>
       </e>
       <e p="MovieShop.Infrastructure" t="IncludeRecursive">
@@ -222,18 +283,36 @@
           </e>
         </e>
         <e p="Repositories" t="Include">
+          <e p="CastRepository.cs" t="Include" />
           <e p="EFRepository.cs" t="Include" />
           <e p="MovieRepository.cs" t="Include" />
           <e p="PurchaseRepository.cs" t="Include" />
           <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="CastService.cs" t="Include" />
+          <e p="CryptoService.cs" t="Include" />
+          <e p="CurrentUserService.cs" t="Include" />
           <e p="GenreService.cs" t="Include" />
           <e p="MovieService.cs" t="Include" />
+          <e p="PurchaseService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
         </e>
       </e>
       <e p="MovieShop.Web.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MovieServiceUnitTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="UnitTests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UnitTests.csproj" t="IncludeRecursive" />
+      </e>
     </e>
   </component>
 </project>

@@ -27,6 +27,7 @@ namespace MovieShop.Infrastructure.Data
             modelBuilder.Entity<Purchase>(ConfigurePurchase);
             modelBuilder.Entity<Review>(ConfigureReview);
             modelBuilder.Entity<Favorite>(ConfigureFavorite);
+            //modelBuilder.Entity<Test>(Configu)
         }
 
         private void ConfigureFavorite(EntityTypeBuilder<Favorite> builder)
@@ -186,5 +187,6 @@ namespace MovieShop.Infrastructure.Data
         public DbSet<Purchase> Purchases { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
+        public DbSet<Test> Tests { get; set; }
     }
 }

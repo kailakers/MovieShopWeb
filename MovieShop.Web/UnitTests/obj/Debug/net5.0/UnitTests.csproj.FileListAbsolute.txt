@@ -151,3 +151,5 @@
 /Users/kai/RiderProjects/MovieShop.Web/UnitTests/obj/Debug/net5.0/ref/UnitTests.dll
 /Users/kai/RiderProjects/MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.pdb
 /Users/kai/RiderProjects/MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.genruntimeconfig.cache
+/Users/kai/RiderProjects/MovieShop.Web/UnitTests/bin/Debug/net5.0/Castle.Core.dll
+/Users/kai/RiderProjects/MovieShop.Web/UnitTests/bin/Debug/net5.0/Moq.dll

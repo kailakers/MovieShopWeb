@@ -26,6 +26,7 @@ namespace MovieShop.Controllers
             // return View(movies);
             _logger.LogInformation("Index method called");
             var topGrossingMovies = await _movieService.GetHighestGrossingMovies();
+            //var topGrossingMovies = await _movieService.GetTopPurchasedMovie();
             return View(topGrossingMovies);
         }
 

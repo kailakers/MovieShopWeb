@@ -1,8 +1,11 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MovieShop.Core.Entities;
 using MovieShop.Core.Helpers;
 using MovieShop.Core.Models;
+using MovieShop.Core.Models.Response;
 using MovieShop.Core.RepositoryInterfaces;
 using MovieShop.Core.ServiceInterfaces;
 using MovieShop.Infrastructure.Data;
@@ -15,10 +18,13 @@ namespace MovieShop.Infrastructure.Services
         // DI pattern allows us to write the lossly coupling code which is more maintainable and testable
         private readonly IMovieRepository _movieRepository;
         private readonly IAsyncRepository<Favorite> _favoriteRepository;
-        public MovieService(IMovieRepository movieRepository, IAsyncRepository<Favorite> favoriteRepository)
+        private readonly ICurrentUserService _currentUserService;
+        public MovieService(IMovieRepository movieRepository, IAsyncRepository<Favorite> favoriteRepository, 
+            ICurrentUserService currentUserService)
         {
             _movieRepository = movieRepository;
             _favoriteRepository = favoriteRepository;
+            _currentUserService = currentUserService;
         }
 
         public Task<PagedResultSet<MovieResponseModel>> GetMoviesByPagination(int pageSize = 20, int page = 0, string title = "")
@@ -55,8 +61,27 @@ namespace MovieShop.Infrastructure.Services
                 ReleaseDate = movie.ReleaseDate,
                 RunTime = movie.RunTime,
                 Price = movie.Price,
-                FavoritesCount = favoriteCount
+                FavoritesCount = favoriteCount,
+                Casts = new List<MovieDetailsResponseModel.CastResponseModel>(),
+                Genres = new List<Genre>()
             };
+            foreach (var cast in movie.MovieCasts)
+            {
+                movieDetailsResponseModel.Casts.Add(new MovieDetailsResponseModel.CastResponseModel
+                {
+                    Id = cast.Cast.Id,
+                    Character = cast.Character,
+                    Gender = cast.Cast.Gender,
+                    Name = cast.Cast.Name,
+                    TmdbUrl = cast.Cast.TmdbUrl,
+                    ProfilePath = cast.Cast.ProfilePath
+                });
+            }
+
+            foreach (var genre in movie.MovieGenres)
+            {
+                movieDetailsResponseModel.Genres.Add(genre.Genre);
+            }
             
             return movieDetailsResponseModel;
         }
@@ -64,13 +89,17 @@ namespace MovieShop.Infrastructure.Services
         public async Task<IEnumerable<ReviewMovieResponseModel>> GetReviewsForMovie(int id)
         {
             var reviews = await _movieRepository.GetReviewByMovie(id);
-            var reviewMovieResponseModel = new List<ReviewMovieResponseModel>();
+            
+            List<ReviewMovieResponseModel> reviewMovieResponseModel = new List<ReviewMovieResponseModel>();
             foreach (var review in reviews)
             {
                 reviewMovieResponseModel.Add(new ReviewMovieResponseModel
                 {
-                    MovieId = review.MovieId, Name = review.User.FirstName,
-                    ReviewText = review.ReviewText, UserId = review.UserId
+                    MovieId = review.MovieId,
+                    Name = review.User.FirstName, 
+                    Rating = review.Rating,
+                    ReviewText = review.ReviewText, 
+                    UserId = review.UserId
                 });
             }
 
@@ -91,7 +120,7 @@ namespace MovieShop.Infrastructure.Services
             {
                 movieResponseModel.Add(new MovieResponseModel
                 {
-                    Id = movie.Id, PosterUrl = movie.PosterUrl, Title = movie.Title, ReleaseDate = movie.ReleaseDate.Value
+                    Id = movie.Id, PosterUrl = movie.PosterUrl, Title = movie.Title, ReleaseDate = movie.ReleaseDate
                 });
             }
 
@@ -106,7 +135,7 @@ namespace MovieShop.Infrastructure.Services
             {
                 movieResponseModel.Add(new MovieResponseModel
                 {
-                    Id = movie.Id, PosterUrl = movie.PosterUrl, Title = movie.Title, ReleaseDate = movie.ReleaseDate.Value
+                    Id = movie.Id, PosterUrl = movie.PosterUrl, Title = movie.Title, ReleaseDate = movie.ReleaseDate
                 });
             }
 
@@ -127,14 +156,133 @@ namespace MovieShop.Infrastructure.Services
             return movieResponseModel;
         }
 
-        public Task<MovieDetailsResponseModel> CreateMovie(MovieCreateRequest movieCreateRequest)
+        public async Task<MovieDetailsResponseModel> CreateMovie(MovieCreateRequest movieCreateRequest)
         {
-            throw new System.NotImplementedException();
+            var roles = _currentUserService.Roles;
+            List<string> rolesList = new List<string>();
+            foreach (var role in roles)
+            {
+                rolesList.Add(role);
+            }
+
+            string admin = "Admin";
+            if (!rolesList.Exists(e=>e==admin))
+                throw new Exception("Not Authorized");
+            var movie = new Movie
+            {
+                Title = movieCreateRequest.Title,
+                Overview = movieCreateRequest.Overview,
+                BackdropUrl = movieCreateRequest.BackdropUrl,
+                Budget = movieCreateRequest.Budget,
+                CreatedDate = movieCreateRequest.CreatedDate,
+                ImdbUrl = movieCreateRequest.ImdbUrl,
+                OriginalLanguage = movieCreateRequest.OriginalLanguage,
+                PosterUrl = movieCreateRequest.PosterUrl,
+                Price = movieCreateRequest.Price,
+                ReleaseDate = movieCreateRequest.ReleaseDate,
+                RunTime = movieCreateRequest.RunTime,
+                Tagline = movieCreateRequest.TagLine,
+                TmdbUrl = movieCreateRequest.TmdbUrl
+            };
+            var createdMovie = await _movieRepository.AddAsync(movie);
+            var response = new MovieDetailsResponseModel()
+            {
+                Id = createdMovie.Id, 
+                Title = createdMovie.Title,
+                Overview = createdMovie.Overview,
+                BackdropUrl = createdMovie.BackdropUrl,
+                Budget = createdMovie.Budget,
+                CreatedDate = createdMovie.CreatedDate,
+                ImdbUrl = createdMovie.ImdbUrl,
+                OriginalLanguage = createdMovie.OriginalLanguage,
+                PosterUrl = createdMovie.PosterUrl,
+                Price = createdMovie.Price,
+                ReleaseDate = createdMovie.ReleaseDate,
+                RunTime = createdMovie.RunTime,
+                Tagline = createdMovie.Tagline,
+                TmdbUrl = createdMovie.TmdbUrl
+            };
+            return response;
         }
 
         public Task<MovieDetailsResponseModel> UpdateMovie(MovieCreateRequest movieCreateRequest)
         {
-            throw new System.NotImplementedException();
+            var roles = _currentUserService.Roles;
+            List<string> rolesList = new List<string>();
+            foreach (var role in roles)
+            {
+                rolesList.Add(role);
+            }
+
+            string admin = "Admin";
+            if (!rolesList.Exists(e=>e==admin))
+                throw new Exception("Not Authorized");
+            
+            var movie = new Movie
+            {
+                Title = movieCreateRequest.Title,
+                Overview = movieCreateRequest.Overview,
+                BackdropUrl = movieCreateRequest.BackdropUrl,
+                Budget = movieCreateRequest.Budget,
+                CreatedDate = movieCreateRequest.CreatedDate,
+                ImdbUrl = movieCreateRequest.ImdbUrl,
+                OriginalLanguage = movieCreateRequest.OriginalLanguage,
+                PosterUrl = movieCreateRequest.PosterUrl,
+                Price = movieCreateRequest.Price,
+                ReleaseDate = movieCreateRequest.ReleaseDate,
+                RunTime = movieCreateRequest.RunTime,
+                Tagline = movieCreateRequest.TagLine,
+                TmdbUrl = movieCreateRequest.TmdbUrl
+            };
+            var createMovie = _movieRepository.UpdateAsync(movie);
+            //var response = new MovieD
+            return null;
+        }
+
+        public async Task<IEnumerable<MovieResponseModel>> GetTopPurchasedMovie()
+        {
+            var roles = _currentUserService.Roles;
+            List<string> rolesList = new List<string>();
+            foreach (var role in roles)
+            {
+                rolesList.Add(role);
+            }
+
+            string admin = "Admin";
+            if (!rolesList.Exists(e=>e==admin))
+                throw new Exception("Not Authorized");
+            
+            var movies = await _movieRepository.GetTopPurchasedMovies();
+            List<MovieResponseModel> movieResponseModel = new List<MovieResponseModel>();
+            foreach (var movie in movies)
+            {
+                movieResponseModel.Add(new MovieResponseModel
+                {
+                    Id = movie.Id,
+                    Title = movie.Title,
+                    PosterUrl = movie.PosterUrl
+                });
+            }
+
+            return movieResponseModel;
+        }
+
+        public async Task<IEnumerable<MovieResponseModel>> GetAllMovies()
+        {
+            var movies = await _movieRepository.ListAllAsync();
+            List<MovieResponseModel> movieResponseModels = new List<MovieResponseModel>();
+            foreach (var movie in movies)
+            {
+                movieResponseModels.Add(new MovieResponseModel
+                {
+                    Id = movie.Id,
+                    Title = movie.Title,
+                    PosterUrl = movie.PosterUrl,
+                    ReleaseDate = movie.ReleaseDate
+                });
+            }
+
+            return movieResponseModels;
         }
     }
 }

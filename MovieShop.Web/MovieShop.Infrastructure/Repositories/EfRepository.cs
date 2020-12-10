@@ -26,6 +26,21 @@ namespace MovieShop.Infrastructure.Repositories
         {
             return await _dbContext.Set<T>().Skip(pageIndex * pageSize).Take(pageSize).ToListAsync();
         }
+
+        public async Task<IEnumerable<T>> ListAllWithInclude(Expression<Func<T, bool>> filter,params Expression<Func<T, object>>[] included)
+        {
+            var query = _dbContext.Set<T>().AsQueryable();
+            if (included != null)
+            {
+                foreach (var navigatedProperty in included)
+                {
+                    query.Include(navigatedProperty);
+                }
+            }
+
+            return await query.Where(filter).ToListAsync();
+        }
+
         public async Task<IEnumerable<T>> ListAllAsync()
         {
             return await _dbContext.Set<T>().ToListAsync();

@@ -59,3 +59,7 @@
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/obj/Debug/net5.0/ref/MovieShop.API.dll
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.pdb
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.genruntimeconfig.cache
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll

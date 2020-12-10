@@ -1,4 +1,8 @@
-$HEADER$namespace $NAMESPACE$
+namespace MovieShop.Core.ServiceInterfaces
 {
-  public class $CLASS$ {$END$}
+    public interface ICryptoService
+    {
+        string CreateSalt();
+        string HashPassword(string password, string salt);
+    }
 }

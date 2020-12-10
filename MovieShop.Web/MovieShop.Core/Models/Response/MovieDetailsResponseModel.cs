@@ -18,6 +18,8 @@ namespace MovieShop.Core.Models
         public string ImdbUrl { get; set; }
         public string TmdbUrl { get; set; }
         public DateTime? ReleaseDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
+        public string OriginalLanguage { get; set; }
         public int? RunTime { get; set; }
         public decimal? Price { get; set; }
         public int FavoritesCount { get; set; }

@@ -56,10 +56,17 @@
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.TagHelpers.input.cache
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.TagHelpers.output.cache
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.RazorCoreGenerate.cache
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Account/MyAccount.cshtml.g.cs
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Admin/CreateMovie.cshtml.g.cs
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/Components/Genres/Default.cshtml.g.cs
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_LoginSuccess.cshtml.g.cs
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_MovieCard.cshtml.g.cs
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
@@ -71,5 +78,6 @@
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/ref/MovieShop.dll
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.pdb
 /Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.genruntimeconfig.cache
-/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_MovieCard.cshtml.g.cs
-/Users/kai/RiderProjects/MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/Components/Genres/Default.cshtml.g.cs
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/kai/RiderProjects/MovieShop.Web/MovieShop/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll

@@ -1,4 +1,8 @@
-$HEADER$namespace $NAMESPACE$
+namespace MovieShop.Core.Entities
 {
-  public class $CLASS$ {$END$}
+    public class Test
+    {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+    }
 }
