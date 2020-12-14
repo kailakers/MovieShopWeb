@@ -1,4 +1,5 @@
 import {Genre} from "./genre";
+import {Cast} from "./cast";
 
 export interface Movie {
     id: number;
@@ -19,5 +20,5 @@ export interface Movie {
     price: number;
     favoritesCount: number;
     genres: Genre[];
-
+    casts: Cast[];
 }

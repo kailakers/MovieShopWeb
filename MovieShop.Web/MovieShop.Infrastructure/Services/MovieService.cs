@@ -62,6 +62,7 @@ namespace MovieShop.Infrastructure.Services
                 RunTime = movie.RunTime,
                 Price = movie.Price,
                 FavoritesCount = favoriteCount,
+                Rating = movie.Rating,
                 Casts = new List<MovieDetailsResponseModel.CastResponseModel>(),
                 Genres = new List<Genre>()
             };

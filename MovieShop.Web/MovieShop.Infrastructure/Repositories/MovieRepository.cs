@@ -25,9 +25,10 @@ namespace MovieShop.Infrastructure.Repositories
                 .Include(m => m.MovieGenres).ThenInclude(m => m.Genre)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (movie == null) return null;
-            // var movieRating = await _dbContext.Reviews.Where(r => r.MovieId == id).DefaultIfEmpty()
-            //     .AverageAsync(r => r == null ? 0 : r.Rating);
-            // if (movieRating > 0) movie.Rating = movieRating;
+            
+            var movieRating = await _dbContext.Reviews.Where(r => r.MovieId == id).DefaultIfEmpty()
+                 .AverageAsync(r => r == null ? 0 : r.Rating);
+             if (movieRating > 0) movie.Rating = movieRating;
             return movie;
         }
         // public async Task<IEnumerable<Movie>> GetTopRatedMovie()

@@ -138,7 +138,7 @@
           <e p="AccountController.cs" t="Include" />
           <e p="AdminController.cs" t="Include" />
           <e p="CastController.cs" t="Include" />
-          <e p="GenresController.cs" t="Include" />
+          <e p="GenreController.cs" t="Include" />
           <e p="MoviesController.cs" t="Include" />
           <e p="UserController.cs" t="Include" />
         </e>

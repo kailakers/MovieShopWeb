@@ -28,70 +28,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f9208dd-e25e-40f6-8ab5-7490abf0b0c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Angular/.idea/.idea.Angular/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/.idea/.idea.Angular/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/.idea/.idea.Angular/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/.idea/.idea.Angular/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/.idea/.idea.Angular/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/.idea/.idea.Angular/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/Angular.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/genres/genres.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/genres/genres.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/genres/genres.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/genres/genres.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/home/home.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/home/home.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.API/Controllers/GenresController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/CastService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/CastService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/core/layout/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/core/layout/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/core/services/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/core/services/api.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/movies/movie-details/movie-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/movies/movie-details/movie-details.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/movies/movie-details/movie-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/movies/movie-details/movie-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/movies/movie-details/movie-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/movies/movie-details/movie-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/shared/models/movie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/app/shared/models/movie.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Angular/MovieShopSPA/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/MovieShopSPA/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop-master/.idea/.idea.MovieShop/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop-master/.idea/.idea.MovieShop/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MovieShop.Web/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.API/Controllers/AdminController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/Controllers/AdminController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.API/Controllers/GenreController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.API/Controllers/MoviesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/Controllers/MoviesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.API/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.API/Controllers/GenresController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/Controllers/GenreController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/MovieShop.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/MovieShop.API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.API.pdb" afterDir="false" />
@@ -99,11 +60,11 @@
       <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/MovieShop.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/ref/MovieShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/bin/Debug/net5.0/ref/MovieShop.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/obj/Debug/net5.0/MovieShop.API.pdb" afterDir="false" />
@@ -112,139 +73,21 @@
       <change beforePath="$PROJECT_DIR$/MovieShop.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Request/FavoriteRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Request/FavoriteRequestModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Request/LoginRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Request/LoginRequestModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Request/MovieCreateRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Request/MovieCreateRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Request/PurchaseRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Request/PurchaseRequestModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Request/ReviewRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Request/ReviewRequestModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Request/UserRegisterRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Request/UserRegisterRequestModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Response/FavoriteResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/FavoriteResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Response/MovieDetailsResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/MovieDetailsResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Response/MovieResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/MovieResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Response/PurchaseResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/PurchaseResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Response/ReviewResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/ReviewResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Response/UserLoginResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/UserLoginResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Models/Response/UserRegisterResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Models/Response/UserRegisterResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/MovieShop.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/MovieShop.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IAsyncRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IAsyncRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/ICastRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/ICastRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IMovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IMovieRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IPurchaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/RepositoryInterfaces/IPurchaseRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/ICastService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/ICastService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/ICryptoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/ICryptoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/ICurrentUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/ICurrentUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/IMovieService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/IMovieService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/IPurchaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/IPurchaseService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/MovieShop.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/MovieShop.Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Core/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Data/MovieShopDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Data/MovieShopDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/CastRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/CastRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/EfRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/EfRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/MovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/MovieRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/PurchaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/PurchaseRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/CastService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/CastService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/CryptoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/CryptoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/CurrentUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/CurrentUserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/MovieService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/MovieService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/PurchaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/PurchaseService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/Services/UserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/MovieShop.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/MovieShop.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Web.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Web.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop.Web.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop.Web.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Controllers/AdminController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Controllers/AdminController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/MovieShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/MovieShop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Views/Account/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Views/Account/MyAccount.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Views/Account/MyAccount.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Views/Account/Register.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Views/Admin/CreateMovie.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Views/Admin/CreateMovie.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/Views/Shared/_LoginSuccess.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/Views/Shared/_LoginSuccess.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/MovieShop.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/ref/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/bin/Debug/net5.0/ref/MovieShop.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.RazorCoreGenerate.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/MovieShop.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Pages/Account/Register.cshtml.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Account/MyAccount.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Account/MyAccount.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_LoginSuccess.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_LoginSuccess.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/ref/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/Debug/net5.0/ref/MovieShop.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/MovieShop.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/MovieShop.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/MovieShop.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/MovieShop.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MovieShop/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MovieShop/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/MovieServiceUnitTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/MovieServiceUnitTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/UnitTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/UnitTests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/UnitTests.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/UnitTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/ref/UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/net5.0/ref/UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/UnitTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/ref/UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/net5.0/ref/UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/UnitTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/UnitTests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/UnitTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/UnitTests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MovieShop.Core/ServiceInterfaces/ICurrentUserService.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Services/CurrentUserService.cs" />
         <option value="$PROJECT_DIR$/MovieShop/Views/Shared/_LoginSuccess.cshtml" />
         <option value="$PROJECT_DIR$/MovieShop/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/UnitTests/UnitTest1.cs" />
@@ -316,15 +157,17 @@
         <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Services/PurchaseService.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Test.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Data/MovieShopDbContext.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.API/Controllers/AccountController.cs" />
         <option value="$PROJECT_DIR$/MovieShop/Startup.cs" />
-        <option value="$PROJECT_DIR$/MovieShop.API/appsettings.json" />
-        <option value="$PROJECT_DIR$/MovieShop.API/Startup.cs" />
         <option value="$PROJECT_DIR$/MovieShop.API/Controllers/GenreController.cs" />
         <option value="$PROJECT_DIR$/MovieShop/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Services/MovieService.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.API/appsettings.json" />
+        <option value="$PROJECT_DIR$/MovieShop.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.Core/Models/Response/MovieDetailsResponseModel.cs" />
         <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Repositories/MovieRepository.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Data/MovieShopDbContext.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.Core/Entities/Movie.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.Infrastructure/Services/MovieService.cs" />
+        <option value="$PROJECT_DIR$/MovieShop.API/Controllers/AccountController.cs" />
       </list>
     </option>
   </component>
@@ -472,7 +315,7 @@
       <workItem from="1606609257592" duration="11946000" />
       <workItem from="1606850097967" duration="2864000" />
       <workItem from="1606853078472" duration="20881000" />
-      <workItem from="1607027075424" duration="62053000" />
+      <workItem from="1607027075424" duration="71478000" />
     </task>
     <servers />
   </component>
@@ -522,168 +365,168 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1607229753835" />
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1607574063901">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1607830748369">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607574063901" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607830748369" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1607238900327" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1606614812555" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1607304968322" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1607316164861" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1607029230872" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1606324025109" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1607470244626" />
-    <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1607554206910" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1607635870716" />
+    <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1607650595270" />
     <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1607574039250" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/1440.0.1112.834/0.0.1440.900@0.0.1440.900" timestamp="1606881956787" />
+    <state width="1398" height="188" key="GridCell.Tab.0.bottom/1440.0.1112.834/0.0.1440.900@0.0.1440.900" timestamp="1607722112175" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/1440.23.1112.811/0.0.1440.839@0.0.1440.839" timestamp="1606881149769" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/1440.23.1112.811/0.0.1440.900@0.0.1440.900" timestamp="1606878326492" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.23.1112.811/0.23.1440.823@0.23.1440.823" timestamp="1606770413765" />
-    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1607574063900">
+    <state width="1398" height="188" key="GridCell.Tab.0.bottom/1440.23.1112.811/0.23.1440.823@0.23.1440.823" timestamp="1607719699785" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1607830748368">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607574063900" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607830748368" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1607238900326" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1606614812554" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1607304968321" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1607316164860" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1607029230871" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1606324025107" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1607470244625" />
-    <state width="1398" height="176" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1607554206909" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1607635870715" />
+    <state width="1398" height="188" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1607650595269" />
     <state width="1398" height="176" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1607574039247" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/1440.0.1112.834/0.0.1440.900@0.0.1440.900" timestamp="1606881956785" />
+    <state width="1398" height="188" key="GridCell.Tab.0.center/1440.0.1112.834/0.0.1440.900@0.0.1440.900" timestamp="1607722112173" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/1440.23.1112.811/0.0.1440.839@0.0.1440.839" timestamp="1606881149767" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/1440.23.1112.811/0.0.1440.900@0.0.1440.900" timestamp="1606878326490" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.23.1112.811/0.23.1440.823@0.23.1440.823" timestamp="1606770413764" />
-    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1607574063899">
+    <state width="1398" height="188" key="GridCell.Tab.0.center/1440.23.1112.811/0.23.1440.823@0.23.1440.823" timestamp="1607719699779" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1607830748368">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607574063899" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607830748368" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1607238900325" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1606614812553" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1607304968319" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1607316164858" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1607029230871" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1606324025105" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1607470244624" />
-    <state width="1398" height="176" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1607554206908" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1607635870713" />
+    <state width="1398" height="188" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1607650595267" />
     <state width="1398" height="176" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1607574039244" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/1440.0.1112.834/0.0.1440.900@0.0.1440.900" timestamp="1606881956784" />
+    <state width="1398" height="188" key="GridCell.Tab.0.left/1440.0.1112.834/0.0.1440.900@0.0.1440.900" timestamp="1607722112172" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/1440.23.1112.811/0.0.1440.839@0.0.1440.839" timestamp="1606881149766" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/1440.23.1112.811/0.0.1440.900@0.0.1440.900" timestamp="1606878326489" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.23.1112.811/0.23.1440.823@0.23.1440.823" timestamp="1606770413763" />
-    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1607574063901">
+    <state width="1398" height="188" key="GridCell.Tab.0.left/1440.23.1112.811/0.23.1440.823@0.23.1440.823" timestamp="1607719699771" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1607830748369">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607574063901" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607830748369" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1607238900327" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1606614812554" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1607304968322" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1607316164861" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1607029230872" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1606324025108" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1607470244625" />
-    <state width="1398" height="176" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1607554206910" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1607635870715" />
+    <state width="1398" height="188" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1607650595269" />
     <state width="1398" height="176" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1607574039249" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/1440.0.1112.834/0.0.1440.900@0.0.1440.900" timestamp="1606881956786" />
+    <state width="1398" height="188" key="GridCell.Tab.0.right/1440.0.1112.834/0.0.1440.900@0.0.1440.900" timestamp="1607722112174" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/1440.23.1112.811/0.0.1440.839@0.0.1440.839" timestamp="1606881149768" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/1440.23.1112.811/0.0.1440.900@0.0.1440.900" timestamp="1606878326491" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.23.1112.811/0.23.1440.823@0.23.1440.823" timestamp="1606770413765" />
-    <state width="1398" height="348" key="GridCell.Tab.1.bottom" timestamp="1607304963262">
+    <state width="1398" height="188" key="GridCell.Tab.0.right/1440.23.1112.811/0.23.1440.823@0.23.1440.823" timestamp="1607719699783" />
+    <state width="1398" height="348" key="GridCell.Tab.1.bottom" timestamp="1607830748324">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607304963262" />
+    <state width="1398" height="348" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607830748324" />
     <state width="1398" height="348" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1607229864035" />
     <state width="1398" height="348" key="GridCell.Tab.1.bottom/0.23.1440.811@0.23.1440.811" timestamp="1607304403280" />
-    <state width="1398" height="348" key="GridCell.Tab.1.center" timestamp="1607304963261">
+    <state width="1398" height="348" key="GridCell.Tab.1.center" timestamp="1607830748324">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607304963261" />
+    <state width="1398" height="348" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607830748324" />
     <state width="1398" height="348" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1607229864034" />
     <state width="1398" height="348" key="GridCell.Tab.1.center/0.23.1440.811@0.23.1440.811" timestamp="1607304403279" />
-    <state width="1398" height="348" key="GridCell.Tab.1.left" timestamp="1607304963261">
+    <state width="1398" height="348" key="GridCell.Tab.1.left" timestamp="1607830748323">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607304963261" />
+    <state width="1398" height="348" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607830748323" />
     <state width="1398" height="348" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1607229864034" />
     <state width="1398" height="348" key="GridCell.Tab.1.left/0.23.1440.811@0.23.1440.811" timestamp="1607304403279" />
-    <state width="1398" height="348" key="GridCell.Tab.1.right" timestamp="1607304963262">
+    <state width="1398" height="348" key="GridCell.Tab.1.right" timestamp="1607830748324">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607304963262" />
+    <state width="1398" height="348" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607830748324" />
     <state width="1398" height="348" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1607229864035" />
     <state width="1398" height="348" key="GridCell.Tab.1.right/0.23.1440.811@0.23.1440.811" timestamp="1607304403280" />
-    <state width="1398" height="348" key="GridCell.Tab.2.bottom" timestamp="1607304963263">
+    <state width="1398" height="348" key="GridCell.Tab.2.bottom" timestamp="1607830748326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607304963263" />
+    <state width="1398" height="348" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607830748326" />
     <state width="1398" height="348" key="GridCell.Tab.2.bottom/0.23.1440.806@0.23.1440.806" timestamp="1607229864038" />
     <state width="1398" height="348" key="GridCell.Tab.2.bottom/0.23.1440.811@0.23.1440.811" timestamp="1607304403282" />
-    <state width="1398" height="348" key="GridCell.Tab.2.center" timestamp="1607304963263">
+    <state width="1398" height="348" key="GridCell.Tab.2.center" timestamp="1607830748326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1607304963263" />
+    <state width="1398" height="348" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1607830748326" />
     <state width="1398" height="348" key="GridCell.Tab.2.center/0.23.1440.806@0.23.1440.806" timestamp="1607229864037" />
     <state width="1398" height="348" key="GridCell.Tab.2.center/0.23.1440.811@0.23.1440.811" timestamp="1607304403281" />
-    <state width="1398" height="348" key="GridCell.Tab.2.left" timestamp="1607304963262">
+    <state width="1398" height="348" key="GridCell.Tab.2.left" timestamp="1607830748325">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1607304963262" />
+    <state width="1398" height="348" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1607830748325" />
     <state width="1398" height="348" key="GridCell.Tab.2.left/0.23.1440.806@0.23.1440.806" timestamp="1607229864036" />
     <state width="1398" height="348" key="GridCell.Tab.2.left/0.23.1440.811@0.23.1440.811" timestamp="1607304403281" />
-    <state width="1398" height="348" key="GridCell.Tab.2.right" timestamp="1607304963263">
+    <state width="1398" height="348" key="GridCell.Tab.2.right" timestamp="1607830748326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1607304963263" />
+    <state width="1398" height="348" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1607830748326" />
     <state width="1398" height="348" key="GridCell.Tab.2.right/0.23.1440.806@0.23.1440.806" timestamp="1607229864037" />
     <state width="1398" height="348" key="GridCell.Tab.2.right/0.23.1440.811@0.23.1440.811" timestamp="1607304403282" />
-    <state width="1398" height="348" key="GridCell.Tab.3.bottom" timestamp="1607304963265">
+    <state width="1398" height="348" key="GridCell.Tab.3.bottom" timestamp="1607830748328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607304963265" />
+    <state width="1398" height="348" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607830748328" />
     <state width="1398" height="348" key="GridCell.Tab.3.bottom/0.23.1440.806@0.23.1440.806" timestamp="1607229864040" />
     <state width="1398" height="348" key="GridCell.Tab.3.bottom/0.23.1440.811@0.23.1440.811" timestamp="1607304403284" />
-    <state width="1398" height="348" key="GridCell.Tab.3.center" timestamp="1607304963264">
+    <state width="1398" height="348" key="GridCell.Tab.3.center" timestamp="1607830748328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1607304963264" />
+    <state width="1398" height="348" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1607830748328" />
     <state width="1398" height="348" key="GridCell.Tab.3.center/0.23.1440.806@0.23.1440.806" timestamp="1607229864039" />
     <state width="1398" height="348" key="GridCell.Tab.3.center/0.23.1440.811@0.23.1440.811" timestamp="1607304403283" />
-    <state width="1398" height="348" key="GridCell.Tab.3.left" timestamp="1607304963264">
+    <state width="1398" height="348" key="GridCell.Tab.3.left" timestamp="1607830748327">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1607304963264" />
+    <state width="1398" height="348" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1607830748327" />
     <state width="1398" height="348" key="GridCell.Tab.3.left/0.23.1440.806@0.23.1440.806" timestamp="1607229864038" />
     <state width="1398" height="348" key="GridCell.Tab.3.left/0.23.1440.811@0.23.1440.811" timestamp="1607304403283" />
-    <state width="1398" height="348" key="GridCell.Tab.3.right" timestamp="1607304963264">
+    <state width="1398" height="348" key="GridCell.Tab.3.right" timestamp="1607830748328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1607304963264" />
+    <state width="1398" height="348" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1607830748328" />
     <state width="1398" height="348" key="GridCell.Tab.3.right/0.23.1440.806@0.23.1440.806" timestamp="1607229864039" />
     <state width="1398" height="348" key="GridCell.Tab.3.right/0.23.1440.811@0.23.1440.811" timestamp="1607304403284" />
-    <state width="1398" height="348" key="GridCell.Tab.4.bottom" timestamp="1607304963266">
+    <state width="1398" height="348" key="GridCell.Tab.4.bottom" timestamp="1607830748330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.4.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607304963266" />
+    <state width="1398" height="348" key="GridCell.Tab.4.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607830748330" />
     <state width="1398" height="348" key="GridCell.Tab.4.bottom/0.23.1440.806@0.23.1440.806" timestamp="1607229864042" />
     <state width="1398" height="348" key="GridCell.Tab.4.bottom/0.23.1440.811@0.23.1440.811" timestamp="1607304403287" />
-    <state width="1398" height="348" key="GridCell.Tab.4.center" timestamp="1607304963265">
+    <state width="1398" height="348" key="GridCell.Tab.4.center" timestamp="1607830748330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.4.center/0.0.1440.900@0.0.1440.900" timestamp="1607304963265" />
+    <state width="1398" height="348" key="GridCell.Tab.4.center/0.0.1440.900@0.0.1440.900" timestamp="1607830748330" />
     <state width="1398" height="348" key="GridCell.Tab.4.center/0.23.1440.806@0.23.1440.806" timestamp="1607229864041" />
     <state width="1398" height="348" key="GridCell.Tab.4.center/0.23.1440.811@0.23.1440.811" timestamp="1607304403285" />
-    <state width="1398" height="348" key="GridCell.Tab.4.left" timestamp="1607304963265">
+    <state width="1398" height="348" key="GridCell.Tab.4.left" timestamp="1607830748329">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.4.left/0.0.1440.900@0.0.1440.900" timestamp="1607304963265" />
+    <state width="1398" height="348" key="GridCell.Tab.4.left/0.0.1440.900@0.0.1440.900" timestamp="1607830748329" />
     <state width="1398" height="348" key="GridCell.Tab.4.left/0.23.1440.806@0.23.1440.806" timestamp="1607229864040" />
     <state width="1398" height="348" key="GridCell.Tab.4.left/0.23.1440.811@0.23.1440.811" timestamp="1607304403285" />
-    <state width="1398" height="348" key="GridCell.Tab.4.right" timestamp="1607304963266">
+    <state width="1398" height="348" key="GridCell.Tab.4.right" timestamp="1607830748330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="348" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1607304963266" />
+    <state width="1398" height="348" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1607830748330" />
     <state width="1398" height="348" key="GridCell.Tab.4.right/0.23.1440.806@0.23.1440.806" timestamp="1607229864042" />
     <state width="1398" height="348" key="GridCell.Tab.4.right/0.23.1440.811@0.23.1440.811" timestamp="1607304403286" />
     <state x="320" y="162" key="Rider.ProjectTemplateDialog.Size" timestamp="1607383596366">
@@ -711,6 +554,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1607230197074" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607649920025">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1607649920025" />
     <state x="262" y="187" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606241512077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

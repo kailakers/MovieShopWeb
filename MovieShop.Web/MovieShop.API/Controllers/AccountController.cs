@@ -1,12 +1,18 @@
+using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using MovieShop.Core.Models;
 using MovieShop.Core.ServiceInterfaces;
+using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
 namespace MovieShop.API.Controllers
 {
@@ -16,10 +22,12 @@ namespace MovieShop.API.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly IConfiguration _configuration;
 
-        public AccountController(IUserService userService)
+        public AccountController(IUserService userService, IConfiguration configuration)
         {
             _userService = userService;
+            _configuration = configuration;
         }
 
         [HttpPost]
@@ -46,25 +54,44 @@ namespace MovieShop.API.Controllers
         [Route("login")]
         public async Task<IActionResult> Login(LoginRequestModel loginRequest, string returnUrl = null)
         {
-            returnUrl ??= Url.Content("~/");
+            //returnUrl ??= Url.Content("~/");
             if (!ModelState.IsValid)
                 return BadRequest(new {message = "Username/Password is incorrect!"});
             var user = await _userService.ValidateUser(loginRequest.Email, loginRequest.Password);
             if (user == null)
                 return Unauthorized();
 
+            var token = GenerateJWT(user);
+
+            return Ok(new {token});
+    }
+
+        private string GenerateJWT(UserLoginResponseModel userLoginResponseModel)
+        {
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.Email),
-                new Claim(ClaimTypes.GivenName, user.FirstName),
-                new Claim(ClaimTypes.Surname, user.LastName),
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Role, user.Roles.Count>0?user.Roles[0]:"User")
+                new Claim(ClaimTypes.NameIdentifier, userLoginResponseModel.Id.ToString()),
+                new Claim(JwtRegisteredClaimNames.GivenName, userLoginResponseModel.FirstName),
+                new Claim(JwtRegisteredClaimNames.FamilyName, userLoginResponseModel.LastName),
+                new Claim(JwtRegisteredClaimNames.Email, userLoginResponseModel.Email),
+                new Claim(ClaimTypes.Role, userLoginResponseModel.Roles.Count>0?userLoginResponseModel.Roles[0]:"User")
             };
-            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                new ClaimsPrincipal(claimsIdentity));
-            return Ok();
+            var claimsIdentity = new ClaimsIdentity(claims);
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["TokenSetting:PrimaryKey"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
+            var expires = DateTime.UtcNow.AddHours(_configuration.GetValue<double>("TokenSetting:ExpirationHours"));
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = claimsIdentity,
+                Audience = _configuration["TokenSetting: Audience"],
+                Issuer = _configuration["TokenSetting: Issuer"],
+                SigningCredentials = credentials,
+                Expires = expires
+            };
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var encodedToken = tokenHandler.CreateToken(tokenDescriptor);
+            
+            return tokenHandler.WriteToken(encodedToken);
         }
     }
 }

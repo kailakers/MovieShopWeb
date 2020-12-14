@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MovieShop.Core.Entities
 {
@@ -39,6 +40,8 @@ namespace MovieShop.Core.Entities
         public string UpdatedBy { get; set; }
         
         public string CreatedBy { get; set; }
+        
+        public decimal? Rating { get; set; }
 
         public ICollection<Trailer> Trailers { get; set; }
 
