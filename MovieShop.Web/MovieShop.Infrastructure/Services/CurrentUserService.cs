@@ -40,13 +40,9 @@ namespace MovieShop.Infrastructure.Services
         {
             get =>
                 _httpContextAccessor.HttpContext.User.Claims
-                    .FirstOrDefault(c => c.Type == ClaimTypes.GivenName)
-                    ?.Value + " " + _httpContextAccessor.HttpContext.User.Claims
-                    .FirstOrDefault(c =>
-                        c.Type ==
-                        ClaimTypes
-                            .Surname)
-                    ?.Value;
+                    .FirstOrDefault(c => c.Type == ClaimTypes.GivenName)?.Value
+                    + " " + _httpContextAccessor.HttpContext.User.Claims
+                    .FirstOrDefault(c => c.Type == ClaimTypes.Surname)?.Value;
             set => throw new NotImplementedException();
         }
 

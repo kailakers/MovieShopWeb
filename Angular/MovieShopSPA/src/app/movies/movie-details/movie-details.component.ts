@@ -15,6 +15,9 @@ export class MovieDetailsComponent implements OnInit {
   ) {}
   movieId?: number;
   movie?: Movie;
+  cast:{
+    id:any;
+  }
   ngOnInit(): void {
     this.route.paramMap.subscribe((p) => {
       this.movieId = +p.get('id');

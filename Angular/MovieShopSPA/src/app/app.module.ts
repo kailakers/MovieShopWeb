@@ -16,6 +16,7 @@ import { MovieDetailsComponent } from './movies/movie-details/movie-details.comp
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginSuccessComponent } from './shared/components/login-success/login-success.component';
+import { JwtModule } from "@auth0/angular-jwt";
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { LoginSuccessComponent } from './shared/components/login-success/login-s
     NgbModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    JwtModule
   ],
   providers: [],
   bootstrap: [AppComponent]

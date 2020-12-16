@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="670f347c-be79-45f3-8a9c-a01e03334e01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Angular.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieShopSPA/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Entities/Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop-master/MovieShop.MVC/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/CastService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop-master/src/MovieShop.Infrastructure/Services/CastService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/.idea/.idea.MovieShop.Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/.idea/.idea.MovieShop.Web/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/.idea/.idea.MovieShop.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/.idea/.idea.MovieShop.Web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/.idea/.idea.MovieShop.Web/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/.idea/.idea.MovieShop.Web/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/AdminController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/AdminController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/GenreController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/GenreController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/MoviesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/MoviesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/MovieShop.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/MovieShop.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/MovieShop.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/ref/MovieShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/bin/Debug/net5.0/ref/MovieShop.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/MovieShop.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/ref/MovieShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/Debug/net5.0/ref/MovieShop.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/MovieShop.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/MovieShop.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/FavoriteRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/FavoriteRequestModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/LoginRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/LoginRequestModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/MovieCreateRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/MovieCreateRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/PurchaseRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/PurchaseRequestModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/ReviewRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/ReviewRequestModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/UserRegisterRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Request/UserRegisterRequestModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/FavoriteResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/FavoriteResponseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/MovieDetailsResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/MovieDetailsResponseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/MovieResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/MovieResponseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/PurchaseResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/PurchaseResponseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/ReviewResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/ReviewResponseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/UserLoginResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/UserLoginResponseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/UserRegisterResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/Models/Response/UserRegisterResponseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/MovieShop.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/MovieShop.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/RepositoryInterfaces/IAsyncRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/RepositoryInterfaces/IAsyncRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/RepositoryInterfaces/ICastRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/RepositoryInterfaces/ICastRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/RepositoryInterfaces/IMovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/RepositoryInterfaces/IMovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/RepositoryInterfaces/IPurchaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/RepositoryInterfaces/IPurchaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/ICastService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/ICastService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/ICryptoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/ICryptoService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/ICurrentUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/ICurrentUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/IMovieService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/IMovieService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/IPurchaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/IPurchaseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/ServiceInterfaces/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/bin/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/MovieShop.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/MovieShop.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Data/MovieShopDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Data/MovieShopDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/CastRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/CastRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/EfRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/EfRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/MovieRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/MovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/PurchaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/PurchaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/CastService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/CastService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/CryptoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/CryptoService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/CurrentUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/CurrentUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/MovieService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/MovieService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/PurchaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/PurchaseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/bin/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/Debug/netstandard2.1/MovieShop.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/MovieShop.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/MovieShop.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Web.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Web.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Web.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop.Web.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Controllers/AdminController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Controllers/AdminController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/MovieShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/MovieShop.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Account/MyAccount.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Account/MyAccount.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Admin/CreateMovie.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Admin/CreateMovie.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Shared/_LoginSuccess.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/Views/Shared/_LoginSuccess.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/MovieShop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/ref/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/bin/Debug/net5.0/ref/MovieShop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/MovieShop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Pages/Account/Register.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Account/MyAccount.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Account/MyAccount.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_LoginSuccess.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/Razor/Views/Shared/_LoginSuccess.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/ref/MovieShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/Debug/net5.0/ref/MovieShop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/MovieShop.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/MovieShop.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/MovieShop.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/MovieShop.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/MovieShop/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/MovieServiceUnitTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/MovieServiceUnitTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/UnitTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/UnitTests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/UnitTests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/UnitTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/ref/UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/bin/Debug/net5.0/ref/UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/UnitTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/ref/UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/Debug/net5.0/ref/UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/UnitTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/UnitTests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/UnitTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/UnitTests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieShop.Web/UnitTests/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lLk82i41gWWdMaEI3vPrtYMPx4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="670f347c-be79-45f3-8a9c-a01e03334e01" name="Default Changelist" comment="" />
+      <created>1607383596533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607383596533</updated>
+      <workItem from="1607383611080" duration="234000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

@@ -1,0 +1,84 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/MovieShop.API.csproj",
+    "projectName": "MovieShop.API",
+    "projectPath": "/Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/MovieShop.API.csproj",
+    "outputPath": "/Users/kai/RiderProjects/MovieShop.Web/MovieShop.API/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "net50"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {
+          "/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/MovieShop.Core.csproj": {
+            "projectPath": "/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Core/MovieShop.Core.csproj"
+          },
+          "/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj": {
+            "projectPath": "/Users/kai/RiderProjects/MovieShop.Web/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Authentication.JwtBearer": {
+          "target": "Package",
+          "version": "[5.0.0, )",
+          "noWarn": [
+            "NU1605"
+          ]
+        },
+        "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+          "target": "Package",
+          "version": "[5.0.0, )",
+          "noWarn": [
+            "NU1605"
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[5.6.3, )"
+        },
+        "System.IdentityModel.Tokens.Jwt": {
+          "target": "Package",
+          "version": "[6.8.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+    }
+  }
+}
